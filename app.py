@@ -35,4 +35,3 @@ if st.button("Calcular Costo"):
     costo_estimado = modelo.predict(X_nuevo)[0]
     costo_estimado = round(costo_estimado / 100) * 100  # Redondear al 100 más cercano
     st.success(f"El costo estimado de tu póliza anual es: **${costo_estimado}**")
-
